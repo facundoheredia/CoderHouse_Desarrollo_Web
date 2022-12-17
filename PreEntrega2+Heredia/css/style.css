@@ -1,0 +1,378 @@
+/*
+----------------
+---- FUENTE ----
+----------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+-----------------------
+---- RESET GENERAL ----
+-----------------------
+*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    color:#fff;
+    box-sizing: border-box;
+}
+
+/*
+-----------------------------------
+---- IMAGEN DE FONDO DE PAGINA ----
+-----------------------------------
+*/
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/fondo.jpg");
+    background-size: cover;
+}
+
+/*
+------------------------------------
+---- CUERPOS PRINCIPALES PAGINA ----
+------------------------------------
+*/
+header {
+    grid-area: "header";
+}
+
+main {
+    grid-area: "main";
+    display: grid;
+    grid-template-columns: 0.05fr 1fr 0.05fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr ;
+}
+
+footer {
+    grid-area: "footer";
+}
+
+/*
+----------------------------------------
+---- AJUSTES DE BARRA DE NAVEGACION ----
+----------------------------------------
+*/
+header div nav ul li {
+    display: inline;
+    padding-inline: 10px;
+}
+
+/*
+--------------------------------------
+---- AJUSTES DE IMAGEN EN PAGINAS ----
+--------------------------------------
+*/
+main div div div img {
+    border-radius: 20px;
+}
+
+/*
+------------------------------------------------------
+---- AJUSTES DE BARRA DE ICONOS DE REDES SOCIALES ----
+------------------------------------------------------
+*/
+footer div ul li {
+    display: inline;
+    padding-inline: 10px;
+}
+
+/*
+-------------
+---- IDS ----
+-------------
+*/
+
+#grillaBody {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 1fr 0.05fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+#fraseInicio {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: left;
+    font-size: 3rem;
+}
+
+/*
+----------------
+---- CLASES ----
+----------------
+*/
+
+
+/* ---- CLASES HEADER ---- */
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+}
+
+.header_logo {
+    width: 5%;
+    height: 90%;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.header_menu {  
+    width: 50%;
+    height: 80%;
+    text-align: right;
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+/* ---- CLASES EN EL MAIN ---- */
+
+.boxNegroPrincipal {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.boxContenido {
+    width: 90%;
+    height: 90%;
+}
+
+/* ---- CLASES FOOTER ---- */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__Texto {
+    text-align: left;
+    display: inline-block;
+}
+
+.footer__RedesSociales {
+    width: 50%;
+    height: 80%;
+    display: inline-block;
+    text-align: right;
+}
+
+.footer__RedesSociales__iconos {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/*
+------------------------
+---- FIN ARCHIVO CSS----
+------------------------
+*/
+
+
+
+
+
+
+
+
+/*
+---- BOX DENTRO DE CONTENIDO PARA LA INFORMACION ----
+*/
+.boxContenido__texto {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 200;
+}
+
+/*
+---- BOX DENTRO DE CONTENIDO PARA LOS TITULOS DE LOS TEXTOS ----
+*/
+.boxContenido__texto__titulo {
+    width: 100%;
+    height: 40%;
+    text-align: left;
+    font-size: 2rem;
+    position: relative;
+}
+
+/*
+---- BOX DENTRO DE CONTENIDO PARA LOS PARRAFOS DE LOS TEXTOS ----
+*/
+.boxContenido__texto__parrafo {
+    font-size: 1rem;
+    width: 95%;
+    height: 60%;
+}
+
+/*
+---- BOX DENTRO DE CONTENIDO PARA OTROS DATOS ----
+*/
+.boxContenido__texto__datos {
+    font-size: 0.70rem;
+    display: inline-block;
+}
+
+/*
+---- BOX DENTRO DE CONTENIDO PARA LAS IMAGENES ACOMPAÑANTES ----
+*/
+.boxContenido__imagen {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    display: inline;
+    float:right;
+}
+
+/*
+---- PAGINA DE GALERIA ----
+*/
+.boxContenido__texto__titulo--galeria {
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    font-size: 2rem;
+    position: relative;
+}
+
+.boxContenido__galeria {
+    display: inline-block;
+}
+
+.boxContenido__galeria img {
+    height: 150px;
+    width: 250px;
+}
+
+.boxContenido__galeria__imagen {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+/*
+---- PAGINA DE CIRCUITO ----
+*/
+.boxContenido__texto--circuito {
+    width: 45%;
+    height: 100%;
+    font-weight: 200;
+    float: left;
+}
+
+.boxContenido__circuito__Galeria {
+    width: 24%;
+    height: 100%;
+    float:left;
+}
+
+.boxContenido__circuito__mapa {
+    width: 29%;
+    height: 100%;
+    float:left;
+}
+
+.boxContenido__circuitoGaleria {
+    width: 70%;
+    height: 20%;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.boxContenido__circuitoMapa {
+    position: relative;
+    height: 100%;
+    margin-left: 50px;
+}
+
+/*
+---- PAGINA DE CONTACTO ----
+*/
+.boxContenido__texto--formulario {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 200;
+}
+
+.boxContenido__texto__titulo--contacto {
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    font-size: 2rem;
+    position: relative;
+}
+
+.boxContenido__imagen--contacto {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    display: inline;
+    float:right;
+}
+
+.boxContenido__formulario {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.boxContenido__formulario__dato {
+    background: rgba(255, 255, 255, 0.50);
+    height: 2rem;
+    width: 20rem;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.boxContenido__formulario__dato--textarea {
+    background: rgba(255, 255, 255, 0.50);
+    height: 12rem;
+    width: 20rem;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.boxContenido__formulario__boton {
+    background-color: black;
+    border-radius: 40px;
+    height: 2rem;
+    width: 5rem;
+    margin-bottom: 10px;
+}
+
+.boxContenido__ubicacion {
+    width: 100%;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.boxContenido__imagen__mapa--contacto {
+    height: 100%;
+    width: 100%;
+}
+
+
+
