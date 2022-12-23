@@ -29,6 +29,23 @@ body {
     background-size: cover;
 }
 /*
+-------------------------------
+---- SEPARACION ITEMS MENU ----
+-------------------------------
+*/
+header div nav div div ul li{
+    padding: 0rem 6rem!important;
+}
+/*
+-------------------------------
+---- TAMAÑO LETRAS FOOTER ----
+-------------------------------
+*/
+footer div div p {
+    font-size: 0.75rem;
+    margin: 0rem;
+}
+/*
 -----------------------------------
 ---- PROPORCION PARTES DE BODY ----
 -----------------------------------
@@ -43,14 +60,29 @@ body {
     height: 10vh;
 }
 /*
----------------------------------
----- MODIFICACION FORMULARIO ----
----------------------------------
+------------------------------
+---- MODIFICACION GALERIA ----
+------------------------------
 */
 .carousel {
     padding: 1rem;
 }
-
+/*
+-------------------------------
+---- MODIFICACION CIRCUITO ----
+-------------------------------
+*/
+.imagen_circuito {
+    padding: 0.2rem;
+}
+.imagen_circuito_mapa {
+    padding: 1rem;
+}
+/*
+---------------------------------
+---- MODIFICACION FORMULARIO ----
+---------------------------------
+*/
 .form-control {
     width: 100%;
     color: #212529;
@@ -75,11 +107,27 @@ body {
     --bs-btn-padding-x: 3rem;
     --bs-btn-padding-y: 0.5rem;
 }
-.imagen_circuito {
-    padding: 0.2rem;
+/*
+---------------------------------------
+---- MODIFICACION BARRA NAVEGACION ----
+---------------------------------------
+*/
+.navbar-toggler {
+    background-color:#fff;
 }
-.imagen_circuito_mapa {
-    padding: 1rem;
+.show {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+/*
+----------------------
+---- MEDIA QUERIES----
+----------------------
+*/
+@media (max-witdh:768px) {
+    #footer {
+        flex-wrap: wrap;
+    }
 }
 /*
 ------------------------
