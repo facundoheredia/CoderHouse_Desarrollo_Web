@@ -47,6 +47,10 @@ body {
 ---- MODIFICACION FORMULARIO ----
 ---------------------------------
 */
+.carousel {
+    padding: 1rem;
+}
+
 .form-control {
     width: 100%;
     color: #212529;
@@ -70,6 +74,12 @@ body {
 .btn {
     --bs-btn-padding-x: 3rem;
     --bs-btn-padding-y: 0.5rem;
+}
+.imagen_circuito {
+    padding: 0.2rem;
+}
+.imagen_circuito_mapa {
+    padding: 1rem;
 }
 /*
 ------------------------
