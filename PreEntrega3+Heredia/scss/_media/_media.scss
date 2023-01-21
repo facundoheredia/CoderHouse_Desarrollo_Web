@@ -1,6 +1,6 @@
 @media screen and (max-width: 575.98px) {
   #mainCircuitos {
-    height: 300vh !important;
+    height: 150vh !important;
     div {
       div {
         div {
@@ -14,7 +14,6 @@
                     display: flex !important;
                     flex-direction: column !important;
                     padding: 0rem !important;
-                    justify-content: space-evenly !important;
                   li {
                     .h-25 {
                       height: 250px !important;
@@ -248,7 +247,7 @@
   }
 
   #mainCircuitos {
-    height: 160vh !important;
+    height: 200vh !important;
     div {
       div {
         div {
@@ -311,6 +310,34 @@
               }
               div {
                 width: 50% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #mainCircuitos{
+    div{
+      div{
+        div{
+          div{
+            article{
+              font-size: 0.75rem;
+            }
+            div{
+              ul{
+                padding: 0rem;
+                li{
+                  img{
+                    width: 90%;
+                  }
+                }
+              }
+            }
+            div{
+              .imagen_circuito_mapa{
+                padding: 0rem;
               }
             }
           }
