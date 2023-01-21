@@ -236,7 +236,7 @@ body {
         #mainCircuitos div div div .h-100 div div ul li .h-25 {
           height: 250px !important; }
   footer {
-    height: 16vh; }
+    height: 16vh !important; }
     footer div section {
       display: flex;
       align-items: center;
@@ -248,7 +248,16 @@ body {
   #mainSobre {
     height: 110vh; }
     #mainSobre div div div div div div img {
-      height: 300px !important; } }
+      height: 300px !important; }
+  #mainContacto {
+    height: 200vh !important; }
+    #mainContacto div {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important; }
+      #mainContacto div div div div iframe {
+        width: 300px !important; } }
 
 @media screen and (min-width: 992px) {
   #mainSobre div div div div div article {
@@ -271,7 +280,7 @@ body {
       display: flex;
       flex-direction: column; }
   #mainContacto {
-    height: 150vh !important; }
+    height: 120vh; }
     #mainContacto div {
       display: flex !important;
       flex-direction: column !important;

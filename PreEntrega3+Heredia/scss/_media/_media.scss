@@ -135,6 +135,24 @@
       }
     }
   }
+  #mainContacto{
+    height: 200vh !important;
+    div{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      div{
+        div {
+          div {
+            iframe {
+              width: 300px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -209,7 +227,7 @@
     }
   }
   #mainContacto {
-    height: 150vh !important;
+    height: 120vh;
     div {
       display: flex !important;
       flex-direction: column !important;
