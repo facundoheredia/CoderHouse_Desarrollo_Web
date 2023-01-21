@@ -211,11 +211,17 @@ body {
             padding: 0rem !important;
             justify-content: space-evenly !important; }
             #mainCircuitos div div div .h-100 div div ul li .h-25 {
-              height: 250px !important; } }
+              height: 250px !important; }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div .h-100 img {
+      height: 200px !important; } }
 
 @media screen and (max-width: 767.98px) {
-  #mainSobre div div div div div .h-100 img {
-    height: 200px !important; }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div .h-100 img {
+      height: 200px !important; }
   #mainCircuitos {
     height: 160vh !important; }
     #mainCircuitos div div div .h-100 div .h-100 {
@@ -239,8 +245,10 @@ body {
 @media screen and (max-width: 991.98px) {
   header div {
     width: 100vw; }
-  #mainSobre div div div div div div img {
-    height: 300px !important; } }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div div img {
+      height: 300px !important; } }
 
 @media screen and (min-width: 992px) {
   #mainSobre div div div div div article {
@@ -257,9 +265,11 @@ body {
     width: 100% !important; } }
 
 @media screen and (max-width: 1199.98px) {
-  #mainSobre div div div div {
-    display: flex;
-    flex-direction: column; }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div {
+      display: flex;
+      flex-direction: column; }
   #mainContacto {
     height: 150vh !important; }
     #mainContacto div {
