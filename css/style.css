@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #fff !important; }
+
+body {
+  width: 100vw;
+  height: 100vh; }
+  body .slideshow {
+    list-style-type: none; }
+  body .slideshow,
+  body .slideshow:after {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    z-index: 0; }
+  body .slideshow li span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 54s linear infinite 0s; }
+  body .slideshow li:nth-child(1) span {
+    background-image: url("../assets/images/fondos/fondo1.webp"); }
+  body .slideshow li:nth-child(2) span {
+    background-image: url("../assets/images/fondos/fondo2.webp");
+    animation-delay: 6s; }
+  body .slideshow li:nth-child(3) span {
+    background-image: url("../assets/images/fondos/fondo3.webp");
+    animation-delay: 12s; }
+  body .slideshow li:nth-child(4) span {
+    background-image: url("../assets/images/fondos/fondo4.webp");
+    animation-delay: 18s; }
+  body .slideshow li:nth-child(5) span {
+    background-image: url("../assets/images/fondos/fondo5.webp");
+    animation-delay: 24s; }
+  body .slideshow li:nth-child(6) span {
+    background-image: url("../assets/images/fondos/fondo6.webp");
+    animation-delay: 30s; }
+  body .slideshow li:nth-child(7) span {
+    background-image: url("../assets/images/fondos/fondo7.webp");
+    animation-delay: 36s; }
+  body .slideshow li:nth-child(8) span {
+    background-image: url("../assets/images/fondos/fondo8.webp");
+    animation-delay: 42s; }
+  body .slideshow li:nth-child(9) span {
+    background-image: url("../assets/images/fondos/fondo9.webp");
+    animation-delay: 48s; }
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in; }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out; }
+  17% {
+    opacity: 1; }
+  25% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0; }
+  8% {
+    opacity: 1; }
+  17% {
+    opacity: 1; }
+  19% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+  body .no-cssanimations .cb-slideshow li span {
+    opacity: 1; }
+  body header {
+    border: 1px solid transparent;
+    border-bottom-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5); }
+    body header div nav div .navbar-toggler {
+      background-color: #fff; }
+    body header div nav div div ul li {
+      padding: 0rem 6rem; }
+      body header div nav div div ul li .dropdown-menu {
+        border: 1px solid transparent;
+        border-bottom-color: rgba(225, 225, 225, 0.5);
+        background-color: rgba(0, 0, 0, 0.3); }
+        body header div nav div div ul li .dropdown-menu li {
+          padding-right: 0rem;
+          padding-left: 1rem; }
+  body main {
+    height: 84vh; }
+    body main div section {
+      padding-top: 10rem;
+      text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
+  body main {
+    height: 84vh; }
+    body main div div .cajaConBlur {
+      background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(1rem);
+      box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+      border-radius: 1rem;
+      border: 2px solid transparent;
+      border-top-color: rgba(225, 225, 225, 0.5);
+      border-left-color: rgba(225, 225, 225, 0.5);
+      border-bottom-color: rgba(225, 225, 225, 0.1);
+      border-right-color: rgba(225, 225, 225, 0.1); }
+      body main div div .cajaConBlur div h2 {
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
+      body main div div .cajaConBlur div div {
+        padding-left: 2rem;
+        padding-right: 2rem; }
+  body main {
+    height: 84vh; }
+    body main div .galeria {
+      padding-top: 1rem;
+      background-color: rgba(0, 0, 0, 0.1);
+      box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+      border-radius: 1rem;
+      border: 2px solid transparent;
+      border-top-color: rgba(225, 225, 225, 0.5);
+      border-left-color: rgba(225, 225, 225, 0.5);
+      border-bottom-color: rgba(225, 225, 225, 0.1);
+      border-right-color: rgba(225, 225, 225, 0.1); }
+  body main {
+    height: 84vh; }
+    body main div div .circuitos {
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      background-color: rgba(0, 0, 0, 0.1);
+      box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+      border-radius: 1rem;
+      border: 2px solid transparent;
+      border-top-color: rgba(225, 225, 225, 0.5);
+      border-left-color: rgba(225, 225, 225, 0.5);
+      border-bottom-color: rgba(225, 225, 225, 0.1);
+      border-right-color: rgba(225, 225, 225, 0.1); }
+      body main div div .circuitos div div div ul li .imagen_circuito {
+        padding: 1rem; }
+      body main div div .circuitos div div div .imagen_circuito_mapa {
+        padding: 1rem;
+        height: 400px; }
+  body main {
+    height: 84vh; }
+    body main div div .card {
+      padding: 5rem 2.5rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(1rem);
+      -webkit-backdrop-filter: blur(1rem);
+      box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+      border-radius: 1rem;
+      border: 2px solid transparent;
+      border-top-color: rgba(225, 225, 225, 0.5);
+      border-left-color: rgba(225, 225, 225, 0.5);
+      border-bottom-color: rgba(225, 225, 225, 0.1);
+      border-right-color: rgba(225, 225, 225, 0.1); }
+      body main div div .card div .card-title {
+        color: rgba(225, 225, 225, 0.5) !important;
+        z-index: -1 !important; }
+      body main div div .card div div form .form-control {
+        width: 100%;
+        color: #212529 !important;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid transparent; }
+      body main div div .card div div form div .btn {
+        border-radius: 2rem; }
+        body main div div .card div div form div .btn:hover {
+          box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+          background-color: rgba(0, 0, 0, 0.5); }
+        body main div div .card div div form div .btn:active {
+          background-color: black !important; }
+  body footer {
+    height: 8.7vh;
+    border: 1px solid transparent;
+    border-top-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.5rem);
+    flex-wrap: wrap !important; }
+    body footer div section p {
+      font-size: 0.75rem;
+      margin: 0rem; }
+    body footer div div ul {
+      padding-left: 0rem; }
+
+@media screen and (max-width: 575.98px) {
+  #mainCircuitos {
+    height: 150vh !important; }
+    #mainCircuitos div div div {
+      width: 80% !important; }
+      #mainCircuitos div div div .h-100 {
+        width: 100% !important; }
+        #mainCircuitos div div div .h-100 div {
+          width: 100% !important; }
+          #mainCircuitos div div div .h-100 div div ul {
+            display: flex !important;
+            flex-direction: column !important;
+            padding: 0 !important; }
+            #mainCircuitos div div div .h-100 div div ul li .h-25 {
+              height: 250px !important; }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div .h-100 img {
+      height: 200px !important; } }
+
+@media screen and (max-width: 767.98px) {
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div .h-100 img {
+      height: 200px !important; }
+  #mainCircuitos {
+    height: 160vh !important; }
+    #mainCircuitos div div div .h-100 div .h-100 {
+      width: 50% !important; }
+    #mainCircuitos div div div .h-100 div div ul {
+      display: flex !important;
+      flex-direction: column !important;
+      padding: 0 !important;
+      justify-content: space-evenly !important; }
+      #mainCircuitos div div div .h-100 div div ul li {
+        width: 100% !important; }
+        #mainCircuitos div div div .h-100 div div ul li .h-25 {
+          height: 250px !important; }
+  footer {
+    height: 16vh !important; }
+    footer div section {
+      display: flex;
+      align-items: center;
+      flex-direction: column; } }
+
+@media screen and (max-width: 991.98px) {
+  header div {
+    width: 100vw; }
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div div div img {
+      height: 300px !important; }
+  #mainContacto {
+    height: 200vh !important; }
+    #mainContacto div {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important; }
+      #mainContacto div div div div iframe {
+        width: 300px !important; } }
+
+@media screen and (min-width: 992px) {
+  #mainSobre div div div div div article {
+    width: 100% !important; }
+  #mainSobre div div div div div div {
+    width: 100% !important; }
+    #mainSobre div div div div div div img {
+      height: 300px !important; } }
+
+@media screen and (min-width: 992px) and (max-width: 1252px) {
+  header div nav div div ul li {
+    padding: 0 2rem !important; }
+  #mainSobre div div div div div article {
+    width: 100% !important; } }
+
+@media screen and (max-width: 1199.98px) {
+  #mainSobre {
+    height: 110vh; }
+    #mainSobre div div div div {
+      display: flex;
+      flex-direction: column; }
+  #mainContacto {
+    height: 120vh; }
+    #mainContacto div {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important; }
+      #mainContacto div div {
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+        #mainContacto div div div div iframe {
+          width: 300px !important; }
+  #mainCircuitos {
+    height: 200vh !important; }
+    #mainCircuitos div div div .h-100 {
+      height: 120% !important; }
+      #mainCircuitos div div div .h-100 h2 {
+        font-size: 2rem !important; }
+      #mainCircuitos div div div .h-100 div {
+        display: flex !important;
+        flex-direction: column !important; }
+        #mainCircuitos div div div .h-100 div .h-100 {
+          width: 100% !important;
+          height: 30% !important; }
+          #mainCircuitos div div div .h-100 div .h-100 p {
+            font-size: 1rem; }
+        #mainCircuitos div div div .h-100 div div {
+          width: 100% !important;
+          height: 100% !important; }
+          #mainCircuitos div div div .h-100 div div .h-75 {
+            height: 25% !important; }
+          #mainCircuitos div div div .h-100 div div ul {
+            display: flex !important;
+            flex-direction: row !important;
+            padding: 0 !important;
+            justify-content: space-evenly !important; }
+            #mainCircuitos div div div .h-100 div div ul li {
+              width: 100% !important; }
+              #mainCircuitos div div div .h-100 div div ul li .h-25 {
+                height: 250px !important; }
+        #mainCircuitos div div div .h-100 div div {
+          height: 50% !important; } }
+
+@media screen and (min-width: 1200px) {
+  #mainSobre div div div div div {
+    display: flex;
+    flex-direction: row; }
+    #mainSobre div div div div div article {
+      width: 50% !important; }
+    #mainSobre div div div div div div {
+      width: 50% !important; }
+  #mainCircuitos div div div div article {
+    font-size: 0.75rem; }
+  #mainCircuitos div div div div div ul {
+    padding: 0; }
+    #mainCircuitos div div div div div ul li img {
+      width: 90%; }
+  #mainCircuitos div div div div div .imagen_circuito_mapa {
+    padding: 0; } }

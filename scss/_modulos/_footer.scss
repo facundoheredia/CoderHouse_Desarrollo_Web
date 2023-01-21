@@ -1,0 +1,23 @@
+footer{
+    height: 8.7vh;
+
+    border: 1px solid transparent;
+    border-top-color: rgba(225,225,225,0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.5rem);
+
+    flex-wrap: wrap!important;
+    div{
+        section{
+            p{
+                font-size: 0.75rem;
+                margin: 0rem;
+            }
+        }
+        div{
+            ul {
+                padding-left: 0rem;
+            }
+        }
+    }
+}

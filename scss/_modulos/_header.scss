@@ -1,0 +1,33 @@
+header {
+  border: 1px solid transparent;
+  border-bottom-color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(0.5rem);
+  box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+  div {
+    nav {
+      div {
+        .navbar-toggler {
+          background-color: #fff;
+        }
+        div {
+          ul {
+            li {
+              padding: 0rem 6rem;
+              .dropdown-menu{
+                border: 1px solid transparent;
+                border-bottom-color: rgba(225, 225, 225, 0.5);
+                background-color: rgba(0, 0, 0, 0.3);
+                li{
+                  padding-right: 0rem;
+                  padding-left: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
