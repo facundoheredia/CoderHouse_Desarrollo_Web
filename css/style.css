@@ -91,7 +91,9 @@ body {
     border-bottom-color: rgba(225, 225, 225, 0.5);
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(0.5rem);
-    box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5); }
+    box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    position: relative !important;
+    z-index: 2; }
     body header div nav div .navbar-toggler {
       background-color: #fff; }
     body header div nav div div ul li {
@@ -99,7 +101,7 @@ body {
       body header div nav div div ul li .dropdown-menu {
         border: 1px solid transparent;
         border-bottom-color: rgba(225, 225, 225, 0.5);
-        background-color: rgba(0, 0, 0, 0.3); }
+        background-color: red; }
         body header div nav div div ul li .dropdown-menu li {
           padding-right: 0rem;
           padding-left: 1rem; }
@@ -113,6 +115,7 @@ body {
     body main div div .cajaConBlur {
       background-color: rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(1rem);
+      -webkit-backdrop-filter: blur(1rem);
       box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
       border-radius: 1rem;
       border: 2px solid transparent;
@@ -132,6 +135,8 @@ body {
     body main div .galeria {
       padding-top: 1rem;
       background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(1rem);
+      -webkit-backdrop-filter: blur(1rem);
       box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
       border-radius: 1rem;
       border: 2px solid transparent;
@@ -147,6 +152,8 @@ body {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
       background-color: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(1rem);
+      -webkit-backdrop-filter: blur(1rem);
       box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
       border-radius: 1rem;
       border: 2px solid transparent;
@@ -174,8 +181,7 @@ body {
       border-bottom-color: rgba(225, 225, 225, 0.1);
       border-right-color: rgba(225, 225, 225, 0.1); }
       body main div div .card div .card-title {
-        color: rgba(225, 225, 225, 0.5) !important;
-        z-index: -1 !important; }
+        color: rgba(225, 225, 225, 0.5) !important; }
       body main div div .card div div form .form-control {
         width: 100%;
         color: #212529 !important;

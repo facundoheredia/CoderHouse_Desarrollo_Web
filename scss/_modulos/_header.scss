@@ -5,6 +5,8 @@ header {
   backdrop-filter: blur(0.5rem);
   box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
 
+  position: relative !important;
+  z-index: 2;
   div {
     nav {
       div {
@@ -18,7 +20,8 @@ header {
               .dropdown-menu{
                 border: 1px solid transparent;
                 border-bottom-color: rgba(225, 225, 225, 0.5);
-                background-color: rgba(0, 0, 0, 0.3);
+                //background-color: rgba(0, 0, 0, 0.3);
+                background-color: rgb(255, 0, 0);
                 li{
                   padding-right: 0rem;
                   padding-left: 1rem;
