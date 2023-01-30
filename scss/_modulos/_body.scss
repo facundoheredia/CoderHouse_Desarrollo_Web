@@ -1,20 +1,17 @@
 body {
-    width: 100vw;
-    height: 100vh;
-
-    //MODULO FONDO ANIMADO
+    //------- MODULO FONDO ANIMADO -------//
     @import "./fondoAnimado";
 
-    //MODULO HEADER
+    //------- MODULO HEADER -------//
     @import "./header";
 
-    //MODULO MAINs
+    //------- MODULOS MAINs -------//
     @import "./mainIndex";
     @import "./mainSobre";
     @import "./mainGaleria";
     @import "./mainCircuitos";
     @import "./mainContacto";
     
-    //MODULO FOOTER
+    //------- MODULO FOOTER -------//
     @import "./footer";
 }

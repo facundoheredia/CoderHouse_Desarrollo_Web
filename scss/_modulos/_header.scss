@@ -20,8 +20,10 @@ header {
               .dropdown-menu{
                 border: 1px solid transparent;
                 border-bottom-color: rgba(225, 225, 225, 0.5);
-                //background-color: rgba(0, 0, 0, 0.3);
-                background-color: rgb(255, 0, 0);
+                background-color: rgba(0, 0, 0, 0.5);
+                a:active, a:hover {
+                  background-color: rgb(0, 0, 0);
+                }
                 li{
                   padding-right: 0rem;
                   padding-left: 1rem;

@@ -1,32 +1,4 @@
 @media screen and (max-width: 575.98px) {
-  #mainCircuitos {
-    height: 150vh !important;
-    div {
-      div {
-        div {
-          width: 80% !important;
-          .h-100 {
-            width: 100% !important;
-            div {
-              width: 100% !important;
-              div {
-                ul {
-                    display: flex !important;
-                    flex-direction: column !important;
-                    padding: 0 !important;
-                  li {
-                    .h-25 {
-                      height: 250px !important;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   #mainSobre {
     height: 110vh;
     div {
@@ -66,38 +38,6 @@
       }
     }
   }
-
-  #mainCircuitos {
-    height: 160vh !important;
-    div {
-      div {
-        div {
-          .h-100 {
-            div {
-              .h-100 {
-                width: 50% !important;
-              }
-              div {
-                ul {
-                  display: flex !important;
-                  flex-direction: column !important;
-                  padding: 0 !important;
-                  justify-content: space-evenly !important;
-                  li {
-                    width: 100% !important;
-                    .h-25 {
-                      height: 250px !important;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   footer {
     height: 16vh !important;
     div {
@@ -134,21 +74,27 @@
       }
     }
   }
-  #mainContacto{
-    height: 200vh !important;
-    div{
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      align-items: center !important;
-      div{
+  #mainCircuitos {
+    div {
+      div {
         div {
+          h2 {
+          }
           div {
-            iframe {
-              width: 300px !important;
+          }
+          div {
+            img {
+              width: 100px !important;
             }
           }
         }
+      }
+    }
+  }
+  #mainContacto {
+    div {
+      div {
+        width: 100%;
       }
     }
   }
@@ -225,69 +171,29 @@
       }
     }
   }
-  #mainContacto {
-    height: 120vh;
+  #mainGaleria {
+    padding-top: 3rem !important;
+  }
+  #mainCircuitos {
     div {
-      display: flex !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      align-items: center !important;
       div {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        div {
+        .circuitos {
           div {
-            iframe {
-              width: 300px !important;
+            #imagen_circuito {
+              width: 400px !important;
             }
           }
         }
       }
     }
   }
-
-  #mainCircuitos {
-    height: 200vh !important;
+  #mainContacto {
     div {
       div {
         div {
-          .h-100 {
-            height: 120% !important;
-            h2 {
-              font-size: 2rem !important;
-            }
-            div {
-              display: flex !important;
-              flex-direction: column !important;
-              .h-100 {
-                width: 100% !important;
-                height: 30% !important;
-                p {
-                  font-size: 1rem;
-                }
-              }
-              div {
-                width: 100% !important;
-                height: 100% !important;
-                .h-75 {
-                  height: 25% !important;
-                }
-                ul {
-                  display: flex !important;
-                  flex-direction: row !important;
-                  padding: 0 !important;
-                  justify-content: space-evenly !important;
-                  li {
-                    width: 100% !important;
-                    .h-25 {
-                      height: 250px !important;
-                    }
-                  }
-                }
-              }
-              div {
-                height: 50% !important;
-              }
+          div {
+            iframe {
+              width: 450px;
             }
           }
         }
@@ -317,28 +223,20 @@
       }
     }
   }
-  #mainCircuitos{
-    div{
-      div{
+  #mainGaleria {
+    padding-top: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #mainGaleria {
+    div {
+      height: 95% !important;
+      .galeria {
         div{
-          div{
-            article{
-              font-size: 0.75rem;
-            }
+          div {
             div{
-              ul{
-                padding: 0;
-                li{
-                  img{
-                    width: 90%;
-                  }
-                }
-              }
-            }
-            div{
-              .imagen_circuito_mapa{
-                padding: 0;
-              }
+              height: 100px !important;
             }
           }
         }
