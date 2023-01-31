@@ -33,38 +33,38 @@ body .slideshow li span {
   animation: imageAnimation 54s linear infinite 0s; }
 
 body .slideshow li:nth-child(1) span {
-  background-image: url("../assets/images/fondos/fondo1.webp"); }
+  background-image: url("../assets/images/fondos/fondo2.webp"); }
 
 body .slideshow li:nth-child(2) span {
-  background-image: url("../assets/images/fondos/fondo2.webp");
+  background-image: url("../assets/images/fondos/fondo3.webp");
   animation-delay: 6s; }
 
 body .slideshow li:nth-child(3) span {
-  background-image: url("../assets/images/fondos/fondo3.webp");
+  background-image: url("../assets/images/fondos/fondo4.webp");
   animation-delay: 12s; }
 
 body .slideshow li:nth-child(4) span {
-  background-image: url("../assets/images/fondos/fondo4.webp");
+  background-image: url("../assets/images/fondos/fondo5.webp");
   animation-delay: 18s; }
 
 body .slideshow li:nth-child(5) span {
-  background-image: url("../assets/images/fondos/fondo5.webp");
+  background-image: url("../assets/images/fondos/fondo6.webp");
   animation-delay: 24s; }
 
 body .slideshow li:nth-child(6) span {
-  background-image: url("../assets/images/fondos/fondo6.webp");
+  background-image: url("../assets/images/fondos/fondo7.webp");
   animation-delay: 30s; }
 
 body .slideshow li:nth-child(7) span {
-  background-image: url("../assets/images/fondos/fondo7.webp");
+  background-image: url("../assets/images/fondos/fondo8.webp");
   animation-delay: 36s; }
 
 body .slideshow li:nth-child(8) span {
-  background-image: url("../assets/images/fondos/fondo8.webp");
+  background-image: url("../assets/images/fondos/fondo9.webp");
   animation-delay: 42s; }
 
 body .slideshow li:nth-child(9) span {
-  background-image: url("../assets/images/fondos/fondo9.webp");
+  background-image: url("../assets/images/fondos/fondo1.webp");
   animation-delay: 48s; }
 
 @keyframes imageAnimation {
@@ -77,18 +77,6 @@ body .slideshow li:nth-child(9) span {
   17% {
     opacity: 1; }
   25% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@keyframes titleAnimation {
-  0% {
-    opacity: 0; }
-  8% {
-    opacity: 1; }
-  17% {
-    opacity: 1; }
-  19% {
     opacity: 0; }
   100% {
     opacity: 0; } }
@@ -122,15 +110,15 @@ body main {
   height: 84vh; }
   body main div section {
     padding-top: 10rem;
-    text-shadow: 0.5rem 0.5rem 0.5rem; }
+    text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
 
 body main {
   height: 84vh; }
   body main div div .cajaConBlur {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.5rem);
-    -webkit-backdrop-filter: blur(0.5rem);
-    box-shadow: 1.3rem 1.3rem 1.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
     border: 2px solid transparent;
     border-top-color: rgba(225, 225, 225, 0.5);
@@ -154,7 +142,7 @@ body main {
   body main div .galeria {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
     box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
@@ -165,7 +153,7 @@ body main {
     border-bottom-color: rgba(225, 225, 225, 0.1);
     border-right-color: rgba(225, 225, 225, 0.1); }
     body main div .galeria div div div {
-      background-color: rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(1rem);
       -webkit-backdrop-filter: blur(1rem);
       box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
@@ -180,7 +168,7 @@ body main {
   padding: 0; }
   body main div div .circuitos {
     padding: 1rem !important;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
     box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
@@ -201,7 +189,7 @@ body main {
       display: flex;
       flex-direction: column; }
       body main div div .circuitos div img {
-        padding-bottom: 0.50rem; }
+        padding-bottom: 0.5rem; }
 
 body main div div .card {
   background-color: rgba(0, 0, 0, 0.3);
@@ -218,7 +206,7 @@ body main div div .card {
     color: rgba(225, 225, 225, 0.5) !important; }
   body main div div .card div form .form-control {
     color: #212529 !important;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(225, 225, 225, 0.5);
     border: 1px solid transparent; }
   body main div div .card div form div .btn {
     border-radius: 2rem; }

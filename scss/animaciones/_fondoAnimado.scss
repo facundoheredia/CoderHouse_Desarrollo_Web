@@ -29,41 +29,42 @@
 
 //------- FONDOS -------//
 .slideshow li:nth-child(1) span {
-  background-image: url("../assets/images/fondos/fondo1.webp");
+  background-image: url("../assets/images/fondos/fondo2.webp");
 }
 .slideshow li:nth-child(2) span {
-  background-image: url("../assets/images/fondos/fondo2.webp");
+  background-image: url("../assets/images/fondos/fondo3.webp");
   animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
-  background-image: url("../assets/images/fondos/fondo3.webp");
+  background-image: url("../assets/images/fondos/fondo4.webp");
   animation-delay: 12s;
 }
 .slideshow li:nth-child(4) span {
-  background-image: url("../assets/images/fondos/fondo4.webp");
+  background-image: url("../assets/images/fondos/fondo5.webp");
   animation-delay: 18s;
 }
 .slideshow li:nth-child(5) span {
-  background-image: url("../assets/images/fondos/fondo5.webp");
+  background-image: url("../assets/images/fondos/fondo6.webp");
   animation-delay: 24s;
 }
 .slideshow li:nth-child(6) span {
-  background-image: url("../assets/images/fondos/fondo6.webp");
+  background-image: url("../assets/images/fondos/fondo7.webp");
   animation-delay: 30s;
 }
 .slideshow li:nth-child(7) span {
-  background-image: url("../assets/images/fondos/fondo7.webp");
+  background-image: url("../assets/images/fondos/fondo8.webp");
   animation-delay: 36s;
 }
 .slideshow li:nth-child(8) span {
-  background-image: url("../assets/images/fondos/fondo8.webp");
+  background-image: url("../assets/images/fondos/fondo9.webp");
   animation-delay: 42s;
 }
 .slideshow li:nth-child(9) span {
-  background-image: url("../assets/images/fondos/fondo9.webp");
+  background-image: url("../assets/images/fondos/fondo1.webp");
   animation-delay: 48s;
 }
 
+//---- ANIMACION ----//
 @keyframes imageAnimation {
   0% {
     opacity: 0;
@@ -77,24 +78,6 @@
     opacity: 1;
   }
   25% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes titleAnimation {
-  0% {
-    opacity: 0;
-  }
-  8% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  19% {
     opacity: 0;
   }
   100% {
