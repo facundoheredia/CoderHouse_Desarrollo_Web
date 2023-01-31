@@ -1,0 +1,31 @@
+main {
+    height: 84vh;
+    div{
+        div{
+            .cajaConBlur{
+                background-color: map-get($colors, negroDiezTransparencia);
+                backdrop-filter: blur(0.5rem);
+                -webkit-backdrop-filter: blur(0.5rem);
+                box-shadow: 1.3rem 1.3rem 1.3rem map-get($colors, negroCincuetaTransparencia);
+                border-radius: 1rem;
+                border: $boderGrueso;
+                border-top-color: map-get($colors, blancoCincuentaTransparencia);
+                border-left-color: map-get($colors, blancoCincuentaTransparencia);
+                border-bottom-color: map-get($colors, blancoDiezTransparencia);
+                border-right-color: map-get($colors, blancoDiezTransparencia);
+
+                div{
+                    h2{
+                        font-size: 2rem;
+                        padding-top: 2rem;
+                        padding-bottom: 2rem;
+                    }
+                    div{
+                        padding-left: 2rem;
+                        padding-right: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

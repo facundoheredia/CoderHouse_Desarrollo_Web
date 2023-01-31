@@ -1,0 +1,23 @@
+footer{
+    height: 8.7vh;
+
+    border: $boderFino;
+    border-top-color: map-get($colors, blancoCincuentaTransparencia);
+    background-color: map-get($colors, negroTreintaTransparencia);
+    backdrop-filter: blur(0.5rem);
+
+    flex-wrap: wrap!important;
+    div{
+        section{
+            p{
+                font-size: 0.75rem;
+                margin: 0;
+            }
+        }
+        div{
+            ul {
+                padding-left: 0;
+            }
+        }
+    }
+}

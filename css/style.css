@@ -101,36 +101,36 @@ body header {
   border-bottom-color: rgba(225, 225, 225, 0.5);
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(0.5rem);
-  box-shadow: 0rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
   position: relative !important;
   z-index: 2; }
   body header div nav div .navbar-toggler {
     background-color: #fff; }
   body header div nav div div ul li {
-    padding: 0rem 6rem; }
+    padding: 0 6rem; }
     body header div nav div div ul li .dropdown-menu {
       border: 1px solid transparent;
       border-bottom-color: rgba(225, 225, 225, 0.5);
-      background-color: rgba(0, 0, 0, 0.5); }
+      background-color: rgba(0, 0, 0, 0.3); }
       body header div nav div div ul li .dropdown-menu a:active, body header div nav div div ul li .dropdown-menu a:hover {
         background-color: black; }
       body header div nav div div ul li .dropdown-menu li {
-        padding-right: 0rem;
+        padding-right: 0;
         padding-left: 1rem; }
 
 body main {
   height: 84vh; }
   body main div section {
     padding-top: 10rem;
-    text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
+    text-shadow: 0.5rem 0.5rem 0.5rem; }
 
 body main {
   height: 84vh; }
   body main div div .cajaConBlur {
     background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
-    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem;
     border-radius: 1rem;
     border: 2px solid transparent;
     border-top-color: rgba(225, 225, 225, 0.5);
@@ -239,9 +239,9 @@ body footer {
   flex-wrap: wrap !important; }
   body footer div section p {
     font-size: 0.75rem;
-    margin: 0rem; }
+    margin: 0; }
   body footer div div ul {
-    padding-left: 0rem; }
+    padding-left: 0; }
 
 @media screen and (max-width: 575.98px) {
   #mainSobre {

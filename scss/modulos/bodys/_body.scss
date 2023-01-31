@@ -1,0 +1,17 @@
+body {
+    //------- MODULO FONDO ANIMADO -------//
+    @import "../../animaciones/fondoAnimado";
+
+    //------- MODULO HEADER -------//
+    @import "../headers/header";
+
+    //------- MODULOS MAINs -------//
+    @import "../mains/mainIndex";
+    @import "../mains/mainSobre";
+    @import "../mains/mainGaleria";
+    @import "../mains/mainCircuitos";
+    @import "../mains/mainContacto";
+    
+    //------- MODULO FOOTER -------//
+    @import "../footers/footer";
+}

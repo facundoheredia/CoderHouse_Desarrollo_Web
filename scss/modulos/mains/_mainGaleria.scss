@@ -1,0 +1,42 @@
+main {     
+    padding-left: 0 !important;   
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;   
+    div{   
+        .galeria{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            background-color: map-get($colors, negroDiezTransparencia);
+            backdrop-filter: blur(1rem);
+            -webkit-backdrop-filter: blur(1rem);
+            box-shadow: 1.3rem 1.3rem 1.3rem map-get($colors, negroCincuentaTransparencia);
+
+            border-radius: 1rem;
+            border: $boderGrueso;
+            border-top-color: rgba(225,225,225,0.5);
+            border-left-color: rgba(225,225,225,0.5);
+            border-bottom-color: rgba(225,225,225,0.1);
+            border-right-color: rgba(225,225,225,0.1);
+
+            div{
+                div {
+                    div {
+                        background-color: map-get($colors, negroDiezTransparencia);
+                        backdrop-filter: blur(1rem);
+                        -webkit-backdrop-filter: blur(1rem);
+                        box-shadow: 1.3rem 1.3rem 1.3rem map-get($colors, negroCincuentaTransparencia);
+
+                        border-radius: 1rem;
+                        border: $boderGrueso;
+                        border-top-color: rgba(225,225,225,0.5);
+                        border-left-color: rgba(225,225,225,0.5);
+                        border-bottom-color: rgba(225,225,225,0.1);
+                        border-right-color: rgba(225,225,225,0.1);
+                    }
+                }
+            }
+        }
+    }
+}

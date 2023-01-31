@@ -1,0 +1,10 @@
+main {
+    height: 84vh;
+
+    div{
+        section {
+            padding-top: 10rem;
+            text-shadow: 0.5rem 0.5rem 0.5rem map-get($colors, negroCincuetaTransparencia);
+        }
+    }
+}

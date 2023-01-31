@@ -1,0 +1,37 @@
+header {
+  border: $boderFino;
+  border-bottom-color: map-get($colors, blancoCincuentaTransparencia);
+  background-color: map-get($colors, negroTreintaTransparencia);
+  backdrop-filter: blur(0.5rem);
+  box-shadow: 0 1.3rem 1.3rem map-get($colors, negroCincuentaTransparencia);
+  position: relative !important;
+  z-index: 2;
+  div {
+    nav {
+      div {
+        .navbar-toggler {
+          background-color: map-get($colors, blanco);
+        }
+        div {
+          ul {
+            li {
+              padding: 0 6rem;
+              .dropdown-menu{
+                border: $boderFino;
+                border-bottom-color: map-get($colors, blancoCincuentaTransparencia);
+                background-color: map-get($colors, negroTreintaTransparencia);
+                a:active, a:hover {
+                  background-color: map-get($colors, negro);
+                }
+                li{
+                  padding-right: 0;
+                  padding-left: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
